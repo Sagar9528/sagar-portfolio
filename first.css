@@ -180,6 +180,17 @@ a:focus-visible {
   background: var(--accent-strong);
 }
 
+.button--secondary {
+  border-color: var(--border);
+  background: var(--surface-raised);
+  color: var(--text);
+}
+
+.button--secondary:hover {
+  border-color: var(--accent);
+  background: var(--surface);
+}
+
 .text-link {
   color: var(--text);
   font-weight: 650;
